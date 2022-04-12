@@ -9,3 +9,5 @@ Mystical stuff happens with protobuf
   * `docker run -v $PWD:/defs --platform=linux/amd64 namely/protoc-all -f person.proto -l csharp -o .`
 * Open the `sln`
 * Take a look at Program.cs
+* `dotnet run` to see it crash
+* Crash is expected when looking at code, but something is not clear
